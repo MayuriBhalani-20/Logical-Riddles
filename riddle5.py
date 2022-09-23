@@ -41,9 +41,8 @@ def make_briks(small, big, goal):
 a = make_briks(2, 10, 16)
 print(a)
 
-# l1 = [1,2]
-# l2 = [5,10]
-# l1 = [i for i in range(1,n-1)]
+
+##THE CODE BELOW IS FOR GETTING THE LIST 3 THAT IS USED IN THE MAIN CODE(FOR UNDERSTANDING)
 
 # def test():
 #     l1 = [1,2]
@@ -61,9 +60,7 @@ print(a)
 #             if len(l1)-1 > i:
 #                 i = i+1
 #             else:
-#                 i = i+1  
-    
-                
+#                 i = i+1                     
 #     return l3
     
 # m = test()
