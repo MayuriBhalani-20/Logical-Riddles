@@ -16,11 +16,17 @@ def mid(string1):
     if c == 0:   
         m = "''"     
     else:
-        m = string1[b]     
-    return m
+        m = string1[b]
+        # index = b         
+    return "Middle element is: " + m
 
 ans = mid("mayuris")
+# ans = mid("abcmaaahjet")
+
 print(ans)
     
     
-h = "abcmahjet"
+'''
+Same question as above, in addition, we have to also get the index of the middle element!!
+(it is possible just add commented line in the code)
+'''    
