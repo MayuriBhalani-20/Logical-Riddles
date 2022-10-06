@@ -1,4 +1,6 @@
-
+'''
+we are given a matrix like [[1,2], [3,4]] and we have to count total negative number from the given matrix in a single loop
+'''
 
 
 def test(matrix1):
