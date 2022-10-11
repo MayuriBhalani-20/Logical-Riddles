@@ -12,7 +12,7 @@ def function(a):
    abc = 0
    pqr = 0
    count = 0
-   while i <= len(a):
+   while i < len(a):
       if len(a) == 1:
          abc = a[i] ** 2
          pqr = a[i]
