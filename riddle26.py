@@ -65,11 +65,13 @@ def function(a, target):
         if i <= target:
             ans.append(i)
 
+    k = sorted(temp_dict.items())
     def get_key(val):
-        for key, value in temp_dict.items():
-            if val == value:
-                mayuri = key
-                del temp_dict[mayuri]
+        for i in k:
+            if i[1] == val:
+                mayuri = i[0]
+                # k = sorted(temp_dict.keys())
+                k.remove(i)
                 return mayuri
     n = 0
     while n < target:
@@ -78,7 +80,7 @@ def function(a, target):
         final_ans.append(ayush)
         ans.remove(final_var)
         n = n+1
-
+    
     return final_ans
 
 
