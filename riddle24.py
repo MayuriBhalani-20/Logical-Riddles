@@ -85,12 +85,12 @@ def test(string1):
 # m = test('192.168.1.0')
 # m = test('192.168.01.1')  ## -- not valid
 # m = test('192.168.1.00')  ## -- not valid
-# m = test('192.168@1.1')   ## -- not valid
+m = test('192.168@.1')   ## -- not valid
 
 # m = test('2001:0db8:85a3::8A2E:037j:7334')   ## -- not valid
 # m = test('02001:0db8:85a3:0000:0000:8a2e:0370:7334')   ## -- not valid
 # m = test('2001:0db8:85a3:0000:0000:8a2e:0370:7334')   
 # m = test('2001:db8:85a3:0:0:8A2E:0370:7334')   
-m = test('2001:0db8:0001:0000:0000:0ab9:C0A8:0102')   
+# m = test('2001:0db8:0001:0000:0000:0ab9:C0A8:0102')   
 
 print(m)
