@@ -1,6 +1,7 @@
-# Online Python compiler (interpreter) to run Python online.
-# Write Python 3 code in this online editor and run it.
-# print("Hello world")
+'''
+Question: given input is [-1,0,5,12,3,9] and the output is [0,1,9,25,81,144]
+write the logic for the given question.
+'''
 
 
 a = [-1, 0, 5, 12, 3, 9]
