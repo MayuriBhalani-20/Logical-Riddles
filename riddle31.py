@@ -67,9 +67,12 @@ def test(num):
                 v = int(r)
         return 'False'                  
                 
-m = test(1818)
+m = test(146674)
 print(m)
 
+'''
+NOTE = palidrone numbers will always return true for this question and every multiple of 11 will also return true. 
+'''
 
 # def combination(num):
 #     string1 = str(num)
