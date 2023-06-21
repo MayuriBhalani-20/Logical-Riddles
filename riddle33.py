@@ -29,6 +29,10 @@ Input: maxTime = 25, edges = [[0,1,10],[1,2,10],[2,5,10],[0,3,1],[3,4,10],[4,5,1
 Output: -1
 Explanation: There is no way to reach city 5 from city 0 within 25 minutes.
 '''
+'''
+NOTE: There are still some bugs in this riddle. one exception of this riddle is it canot handel cyclic graphs 
+'''
+
 import collections
     
 def list_of_total_nodes(edge):
